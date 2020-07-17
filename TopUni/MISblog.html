@@ -3,20 +3,97 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<style>
+			img{	
+				width:100 px; 
+				height:400 px;
+				float:left;	
+				border-radius: 4px;
+				}
+			
+			.footer {
+				  position: float-bottom;
+				  left: 0;
+				  bottom: 0;
+				  width: 100%;
+				  background-color: #5385c1;
+				  color: white;
+				  text-align: center;
+				}
+
+			.wrapper {
+			  min-height: 100%;
+
+			  /* Equal to height of footer */
+			  /* But also accounting for potential margin-bottom of last child */
+			  margin-bottom: -50px;
+			}		
+			
+			.footer,
+			.push {
+				height: 25px;
+				}
+			
+			a{
+				color: white;
+			  }	
+			
+			html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+
+	
+	</style>
+	<title>Top Universities</title>
+	
+	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	
+	
 </head>
 	<body>
-		<h3>Top 10 Colleges for MIS in USA</h1>
+		
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo">#Home</a>
+					<br>
+					<nav id="nav">
+						
+
+					
+							<a href="MISblog.html">MS in MIS</a></br>
+							<a href="MISblog.html">MS in CS</a></br>
+							<a href="MISblog.html">MS in Mgmt. Sc.</a></br>
+							<a href="MISblog.html">MBA</a></br>
+					  
+						
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+			
+			
+		<div style="text-align: center;" > <section id="banner"><h2>Top 10 Colleges for MIS in USA </h2> </section></div>
+		
 		<div class = "container">
-		<p><h1>1. Massachusetts Institute of Technology</h1>
+		<p><h3>1. Massachusetts Institute of Technology</h3></p>
+		<p>
 		Massachusetts Institute of Technology(MIT)  is a private research university in Cambridge, Massachusetts.Founded in 1861,
 		MIT played a key role in the development of many aspects of modern science, engineering, mathematics, and technology, and is
  		widely known for its innovation and academic strength.</p>
-		
-		<img src="MIT-Image.jpg" alt="MIT" width="500" height="400">
-		
+		<div style='float:left'>
+		<img src="MIT-Image.jpg" alt="MIT" width = "300" height = "300">
+		</div>
+		<div style='float:left'>
 		<table class="table" class="table table-hover">
 		 
 		  <tbody>
@@ -30,38 +107,49 @@
 			</tr>
 		  </tbody>
 	</table>
+		
+		</div>
 		</div>
 		
-		
 		<div class = "container">
-		<h1><p>2. Carnegie Mellon University - Heinz College</h1>
+		<h3><p>2. Carnegie Mellon University - Heinz College</h3>
 		Founded in 1900 by Andrew Carnegie Carnegie Mellon University (CMU) is a private research university based in Pittsburgh, Pennsylvania.</p> 
 		
-		<img src="CMU.jpg" alt="CMU" width="500" height="400">
+		<div style='float:left'>
+		<img src="CMU.jpg" alt="CMU" width="300" height="300">
+		</div>
 		
+		<div style='float:left'>
 		<table class="table" class="table table-hover">
 		 
 		  <tbody>
 	
-			  <tr><th scope="col">Ranking</th><th scope="row">3</th></tr>
+			  <tr><th scope="col">Ranking</th><th scope="row">2</th></tr>
 			  <tr><th scope="col">University</th><td>Carnegie Mellon University</td></tr>
 			  <tr><th scope="col">Course Name</th><td>Master of Information System Management</td></tr>
 			  <tr><th scope="col">State</th><td>Pennsylvania</td></tr>
 			  <tr><th scope="col">Out of state tuition fee</th><td>72,200</td></tr>
-			  <tr><th scope="col">Course Website</th><td>https://www.heinz.cmu.edu/programs/information-systems-management-master/</td></tr>
+			  <tr><th scope="col">Course Website</th><td>
+			  <a ref = "https://www.heinz.cmu.edu/programs/information-systems-management-master/">heinz.cmu.edu</a>
+			  </td></tr>
 			</tr>
 		  </tbody>
-	</table>
+		</table>
+		</div>
+		</div>
 		</div>
 		
 		
 		<div class = "container">
-		<h1><p>3. University Of Arizona - Eller College of Management</h1>
+		<h3><p>3. University Of Arizona - Eller College of Management</h3>
 		U of A is a public research university in Tucson, Arizona. Founded in 1885, the UofA was the first university in the Arizona Territory.
 		MIS course is offered by the Eller College Of Management and has continuously been ranked in the top 3 since very long.</p> 
 		
-		<img src="UofA.jpg" alt="UofA" width="500" height="400">
+		<div style='float:left'>
+		<img src="UofA.jpg" alt="UofA" width="300" height="300">
+		</div>
 		
+		<div style='float:left'>
 		<table class="table" class="table table-hover">
 		 
 		  <tbody>
@@ -76,6 +164,207 @@
 		  </tbody>
 	</table>
 		</div>
-		</p>
+		</div>
+		
+		
+		<div class = "container">
+		<h3><p>4. University Of Texas Austin - Eller College of McCombs  School of Business</h3>
+		 University of Texas Austin  was founded in 1885, This University is one of the most prestigious University  in the USA. It is a public research university,and is the flagship institute of the University of Texas System. McCombs School of Business is  was  ranked  4th  for Business Analytics program according to the QS World  University.</p> 
+		
+		<div style='float:left'>
+		<img src="https://top10uns.s3.amazonaws.com/university+of+texas+austin.jpg" alt="UofT" width="300" height="300">
+		</div>
+		
+		<div style='float:left'>
+		<table class="table" class="table table-hover">
+		 
+		  <tbody>
+	
+			  <tr><th scope="col">Ranking</th><th scope="row">4</th></tr>
+			  <tr><th scope="col">University</th><td>University of Texas-Austin</td></tr>
+			  <tr><th scope="col">Course Name</th><td>MS in Information Systems</td></tr>
+			  <tr><th scope="col">State</th><td>Austin</td></tr>
+			  <tr><th scope="col">Out of state tuition fee</th><td>48000</td></tr>
+			  <tr><th scope="col">Course Website</th><td>https://mccombs.utexas.edu/Master-of-Science-in-Information-Technology-Management</td></tr>
+			</tr>
+		  </tbody>
+	</table>
+		</div>
+		</div>
+		
+		
+		<div class = "container">
+		<h3><p>5.University of minnesota--twin cities - Calrson School Of Management</h3>
+		  University of Minnesota, Twin Cities (U of M) is a public research university that was established in 1851, located in Minneapolis and St. Paul, Minnesota, United States. It is the oldest and largest campus within the University of Minnesota system and has the fourth-largest student body in the United States, in terms of numbers.It’s also a fantastic university, which is quite clear when you consider how hard it is to get into it.</p> 
+		
+		<div style='float:left'>
+		<img src="https://top10uns.s3.amazonaws.com/university+of+minnesota.jpg" alt="UofMin" width="300" height="300">
+		</div>
+		
+		<div style='float:left'>
+		<table class="table" class="table table-hover">
+		 
+		  <tbody>
+	
+			   <tr><th scope="col">Ranking</th><th scope="row">5</th></tr>
+			  <tr><th scope="col">University</th><td>Suniversity of minnesota--twin cities</td></tr>
+			  <tr><th scope="col">Course Name</th><td>Master Of Science in Business Analytics/td></tr>
+			  <tr><th scope="col">State</th><td>Minnesota</td></tr>
+			  <tr><th scope="col">Out of state tuition fee</th><td>65250</td></tr>
+			  <tr><th scope="col">Course Website</th><td>https://carlsonschool.umn.edu/degrees/master-science-in-business-analytics</td></tr>
+			  
+			</tr>
+		  </tbody>
+	</table>
+		</div>
+		</div>
+		
+		<div class = "container">
+		<h3><p>6.Standford  University - Standford  College of Engineering</h3>
+		  Standford University is a private university   that was established in 1885. From the beginning, Stanford has valued experiential education.
+		Generous funding helps it's undergraduate’s happiness to numerous economic backgrounds, enjoy equality of expertise and chance.It has been home  to Yahoo,
+		Google, Hewlett-Packard, and many other cutting-edge tech companies that were founded by and continue to be led by Stanford alumni and faculty. </p> 
+		
+		<div style='float:left'>
+		<img src="https://top10uns.s3.amazonaws.com/university+of+texas+austin.jpg" alt="UofStan" width="300" height="300">
+		</div>
+		
+		<div style='float:left'>
+		<table class="table" class="table table-hover">
+		 
+		  <tbody>
+	
+			    <tr><th scope="col">Ranking</th><th scope="row">6</th></tr>
+			  <tr><th scope="col">University</th><td>Standford University</td></tr>
+			  <tr><th scope="col">Course Name</th><td>MS in  CS with Specialization</tr>
+			  <tr><th scope="col">State</th><td>California</td></tr>
+			  <tr><th scope="col">Out of state tuition fee</th><td>77148</td></tr>
+			  <tr><th scope="col">Course Website</th><td>https://cs.stanford.edu/</td></tr>
+			  
+			</tr>
+		  </tbody>
+	</table>
+		</div>
+		</div>
+		
+		
+		<div class = "container">
+		<h3><p>7. Georgia Institute of Technology - Scheller College Of Management</h3>
+		Georgia Institute of Technology is a public university  located in Atlanta,  was established in 1885.The Scheller College of Business is
+		consistently ranked in the top 35 business programs in the nation.</p> 
+		
+		<div style='float:left'>
+		<img src="https://top10uns.s3.amazonaws.com/Georgia+Tech.jpg" alt="GIT" width="300" height="300">
+		</div>
+		
+		<div style='float:left'>
+		<table class="table" class="table table-hover">
+		 
+		  <tbody>
+	
+			  <tr><th scope="col">Ranking</th><th scope="row">7</th></tr>
+			  <tr><th scope="col">University</th><td> Georgia Institute of Technology</td></tr>
+			  <tr><th scope="col">Course Name</th><td>MBA - Technology Of Managementn</tr>
+			  <tr><th scope="col">State</th><td>Atlanta</td></tr>
+			  <tr><th scope="col">Out of state tuition fee</th><td>61,128</td></tr>
+			  <tr><th scope="col">Course Website</th><td>http://catalog.gatech.edu/programs/mba-management-technology-executive/</td></tr>
+			  
+			</tr>
+		  </tbody>
+	</table>
+		</div>
+		</div>
+		
+		
+		<div class = "container">
+		<h3><p>8. Georgia State University - J Mack Robinson College Of Business</h3>
+		 Georgia State University  is located in the heart of Atlanta, Georgia and was founded in 1913.</p> 
+		
+		<div style='float:left'>
+		<img src="https://top10uns.s3.amazonaws.com/Georgia+State+University.jpg" alt="GSU" width="300" height="300">
+		</div>
+		
+		<div style='float:left'>
+		<table class="table" class="table table-hover">
+		 
+		  <tbody>
+	
+			  <tr><th scope="col">Ranking</th><th scope="row">8</th></tr>
+			  <tr><th scope="col">University</th><td> Georgia  State University</td></tr>
+			  <tr><th scope="col">Course Name</th><td>MBA - Technology Of Management</tr>
+			  <tr><th scope="col">State</th><td>Atlanta</td></tr>
+			  <tr><th scope="col">Out of state tuition fee</th><td>47,000</td></tr>
+			  <tr><th scope="col">Course Website</th><td>https://robinson.gsu.edu/masters-programs/ms-in-information-systems/</tr>
+			  
+			</tr>
+		  </tbody>
+	</table>
+		</div>
+		</div>
+		
+		<div class = "container">
+		<h3><p>9.New York University- NYU Courant and Stern School Of Business</h3>
+		  New York University is a famous private research university  which was established in the year 1831 at NewYork</p> 
+		
+		<div style='float:left'>
+		<img src="https://top10uns.s3.amazonaws.com/NYU.jpg" alt="GSU" width="300" height="300">
+		</div>
+		
+		<div style='float:left'>
+		<table class="table" class="table table-hover">
+		 
+		  <tbody>
+	
+			  <tr><th scope="col">Ranking</th><th scope="row">9</th></tr>
+			  <tr><th scope="col">University</th><td> Georgia Institute of Technology</td></tr>
+			  <tr><th scope="col">Course Name</th><td>MS in Information Systems</tr>
+			  <tr><th scope="col">State</th><td>NewYork</td></tr>
+			  <tr><th scope="col">Out of state tuition fee</th><td>70,000</td></tr>
+			  <tr><th scope="col">Course Website</th><td>https://cs.nyu.edu/home/master/prospective_msis.html</tr>
+			  
+			</tr>
+		  </tbody>
+	</table>
+		</div>
+		</div>
+		
+
+		
+		<div class = "container">
+		<h3><p>10.University of Maryland-College Park - Robert H Smith School Of Business</h3>
+		 The University of Maryland is a well-known public research university situated in college Park, Maryland.
+		   It is the Flagship University of the University System of Maryland that was established in 1856.</p> 
+		
+		<div style='float:left'>
+		<img src="https://top10uns.s3.amazonaws.com/University+of+Marryland.jpeg" alt="UMC" width="300" height="300">
+		</div>
+		
+		<div style='float:left'>
+		<table class="table" class="table table-hover">
+		 
+		  <tbody>
+	
+			 <tr><th scope="col">Ranking</th><th scope="row">10</th></tr>
+			  <tr><th scope="col">University</th><td> University of Maryland--College Park</td></tr>
+			  <tr><th scope="col">Course Name</th><td>MS in Information Systems</tr>
+			  <tr><th scope="col">State</th><td>Maryland</td></tr>
+			  <tr><th scope="col">Out of state tuition fee</th><td>64,507</td></tr>
+			  <tr><th scope="col">Course Website</th><td>https://www.rhsmith.umd.edu/programs/ms-information-systems</tr>
+			  
+			</tr>
+		  </tbody>
+	</table>
+		</div>
+		</div>
+		</br>
+		</br>
+		
+	<div class="footer">
+		
+		<p>End Of Content </p>
+		
+	</div>
+	
+		
 	</body>
 </html>
