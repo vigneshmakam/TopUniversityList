@@ -1,130 +1,188 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>CSS Template</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
+<!DOCTYPE HTML>
+<!--
+	Theory by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+	<head>
+		<style>
+			a:link{
+				color: black;
+			}
+	</style>	
+		<title>Top Universities</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
 
-/* Style the header */
-.header {
-  background-color: #f1f1f1;
-  padding: 15px;
-  text-align: center;
-  font-size: 20px;
-}	
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo">#Home</a>
+					<br>
+					<nav id="nav">
+						
 
+					
+							<a href="MISnew.html" color:"black">MS in MIS</a></br>
+							<a href="CSBlog.html">MS in CS</a></br>
+							<a href="MISnew.html">MS in Mgmt. Sc.</a></br>
+							<a href="MISblog.html">MBA</a></br>
+					  
+						
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
 
-.button {
-  background-color: #000000;
-  border: none;
-  border-radius: 4px;
-  color: white;
-  padding: 16px;
-  width: 100px;
-  text-align: right;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 4px 2px;
-  transition: all 0.5s;
-  cursor: pointer;
-  position: absolute;
-  bottom: 50px;
-}
+		<!-- Banner -->
+			<section id="banner">
+				<h1>Top Universities List</h1>
+				<p>Welcome to the list of top universities with all the information you need to know</p>
+			</section>
 
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
+		<!-- One -->
+			<section id="one" class="wrapper">
+				<div class="inner">
+					<div class="flex flex-3">
+						<article>
+							<header>
+								<h3>Cost Of Studying in USA<br /></h3>
+							</header>
+							<p>Did you know that it could cost you over 72k dollars for a masters program in the States?</p>
+							<p>Click on More to continue reading</p>
+							<footer>
+								<a href="https://www.mbacrystalball.com/blog/2015/08/10/ms-in-usa-cost/" class="button special">More</a>
+							</footer>
+						</article>
+						<article>
+							<header>
+									<h3>Cost Of Studying in USA<br /></h3>
+							</header>
+							<p>Did you know that it could cost you over 72k dollars for a masters program in the States?</p>
+							<p>Click on More to continue reading</p>
+							<footer>
+								<a href="https://www.mbacrystalball.com/blog/2015/08/10/ms-in-usa-cost/" class="button special">More</a>
+							</footer>
+						</article>
+						<article>
+							<header>
+									<h3>Cost Of Studying in USA<br /></h3>
+							</header>
+							<p>Did you know that it could cost you over 72k dollars for a masters program in the States?</p>
+							<p>Click on More to continue reading</p>
+							<footer>
+								<a href="https://www.mbacrystalball.com/blog/2015/08/10/ms-in-usa-cost/" class="button special">More</a>
+							</footer>
+						</article>
+					</div>
+				</div>
+			</section>
 
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
+		<!-- Two 
+			<section id="two" class="wrapper style1 special">
+				<div class="inner">
+					<header>
+						<h2>Ipsum Feugiat</h2>
+						<p>Semper suscipit posuere apede</p>
+					</header>
+					<div class="flex flex-4">
+						<div class="box person">
+							<div class="image round">
+								<img src="images/pic03.jpg" alt="Person 1" />
+							</div>
+							<h3>Magna</h3>
+							<p>Cipdum dolor</p>
+						</div>
+						<div class="box person">
+							<div class="image round">
+								<img src="images/pic04.jpg" alt="Person 2" />
+							</div>
+							<h3>Ipsum</h3>
+							<p>Vestibulum comm</p>
+						</div>
+						<div class="box person">
+							<div class="image round">
+								<img src="images/pic05.jpg" alt="Person 3" />
+							</div>
+							<h3>Tempus</h3>
+							<p>Fusce pellentes</p>
+						</div>
+						<div class="box person">
+							<div class="image round">
+								<img src="images/pic06.jpg" alt="Person 4" />
+							</div>
+							<h3>Dolore</h3>
+							<p>Praesent placer</p>
+						</div>
+					</div>
+				</div>
+			</section>
 
-.button:hover span {
-  padding-right: 25px;
-}
+		<!-- Three 
+			<section id="three" class="wrapper special">
+				<div class="inner">
+					<header class="align-center">
+						<h2>Nunc Dignissim</h2>
+						<p>Aliquam erat volutpat nam dui </p>
+					</header>
+					<div class="flex flex-2">
+						<article>
+							<div class="image fit">
+								<img src="images/pic01.jpg" alt="Pic 01" />
+							</div>
+							<header>
+								<h3>Praesent placerat magna</h3>
+							</header>
+							<p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor lorem ipsum.</p>
+							<footer>
+								<a href="#" class="button special">More</a>
+							</footer>
+						</article>
+						<article>
+							<div class="image fit">
+								<img src="images/pic02.jpg" alt="Pic 02" />
+							</div>
+							<header>
+								<h3>Fusce pellentesque tempus</h3>
+							</header>
+							<p>Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem. Suspendisse commodo ullamcorper magna non comodo sodales tempus.</p>
+							<footer>
+								<a href="#" class="button special">More</a>
+							</footer>
+						</article>
+					</div>
+				</div>
+			</section>
+			
 
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
+		<!-- Footer 
+			<footer id="footer">
+				<div class="inner">
+					<div class="flex">
+						<div class="copyright">
+							&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
+						</div>
+						<ul class="icons">
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-linkedin"><span class="label">linkedIn</span></a></li>
+							<li><a href="#" class="icon fa-pinterest-p"><span class="label">Pinterest</span></a></li>
+							<li><a href="#" class="icon fa-vimeo"><span class="label">Vimeo</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
 
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-.footer {
-  background-color: #f1f1f1;
-  padding: 10px;
-  text-align: center;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
-</style>
-</head>
-
-<body>
-
-<h2>Top Universities in USA</h2>
-<p>In a competetive world that we live in, its absolutely necessary that we are aware of our top options, may it be a major or a university - we have you covered.</p>
-<p>Check out some of the top options for the most sought after courses:</p>
-
-<div class="header">
-  <h2>Header</h2>
-</div>
-
-<div class="row">
-  <div class="column" style="background-image:url('https://topuniversitylist.s3.amazonaws.com/MISBg.jpg');color:white;">Top 10 in MIS
-		
-		<input type=button onClick="parent.location='MISblog.html'" value='MIS' class = button>
-		
-  </div>
-  <div class="column" style="background-image:url('https://topuniversitylist.s3.amazonaws.com/CSBg.PNG');color:white;">Top 10 in Computer Science
-  
-	<button class="button" style="vertical-align:middle"><span>CS</span></button>
-	
-  </div>
-  <div class="column" style="background-color:#ccc;color:white;">Column
-	<button class="button" style="vertical-align:middle"><span>Column</span></button>
-  </div>
-</div>
-
-<div class="footer">
-  <p>Footer</p>
-</div>
-
-</body>
+	</body>
 </html>
